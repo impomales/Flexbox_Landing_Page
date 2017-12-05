@@ -1,3 +1,3 @@
 # Flexbox Landing Page
 
-## clone a responsive website using css flexbox. 
+## responsive website using css flexbox. 
