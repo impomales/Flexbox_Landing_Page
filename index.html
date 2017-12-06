@@ -6,6 +6,7 @@
   <title>Responsive Landing Page Using CSS Flexbox</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -30,22 +31,100 @@
   		<button>DOWNLOAD IT HERE</button>
   	</section>
   	<section id="gallery">
-  		<h1>Some Of Our Work</h1>
-  		<p>
+  		<h1 class="section-heading">Some Of Our Work</h1>
+  		<p class="section-text">
   			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
   		</p>
   		<div class="blue-line"></div>
-  		<div id="images">
+  		<div id="images-container">
   			<img src="assets/img/mountain1.jpg" alt="mountain1">
   			<img src="assets/img/mountain2.jpg" alt="mountain2">
   			<img src="assets/img/mountain3.jpg" alt="mountain3">
   			<img src="assets/img/mountain4.jpg" alt="mountain4">
   		</div>
   	</section>
-  	<section id="features"></section>
-  	<section id="comments"></section>
-  	<section id="contact"></section>
+  	<section id="features">
+  		<h1 class="section-heading">Features And Services</h1>
+  		<p class="section-text">
+  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
+  		</p>
+  		<div class="blue-line"></div>
+  		<div id="features-container">
+  			<div class="feat">
+  				<i class="fa fa-camera-retro"></i>
+  				<h2 class="section-subtext">Photography</h2>
+  				<p class="section-text">
+  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.
+  				</p>
+  			</div>
+  			<div class="feat">
+  				<i class="fa fa-cubes"></i>
+  				<h2 class="section-subtext">Web Development</h2>
+  				<p class="section-text">
+  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.
+  				</p>
+  			</div>
+  			<div class="feat">
+  				<i class="fa fa-newspaper-o"></i>
+  				<h2 class="section-subtext">Content Editing</h2>
+  				<p class="section-text">
+  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.
+  				</p>
+  			</div>
+  		</div>
+  	</section>
+  	<section id="comments">
+  		<h1 class="section-heading">What Others Say:</h1>
+  		<div id="comments-container">
+  			<div class="comm">
+  				<p class="comment-text">
+  					Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  				</p>
+  				<p class="section-text">
+  					— Patrick Farrell
+  				</p>
+  			</div>
+  			<div class="comm">
+  				<p class="comment-text">
+  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
+  				</p>
+  				<p class="section-text">
+  					— George Smith
+  				</p>
+  			</div>
+  			<div class="comm">
+  				<p class="comment-text">
+  					Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus
+  				</p>
+  				<p class="section-text">
+  					— Kevin Blake
+  				</p>
+  			</div>
+  		</div>
+  	</section>
+  	<section id="contact">
+  		<h1 class="section-heading">Join Our Newsletter</h1>
+  		<p class="section-text">
+  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
+  		</p>
+  		<div class="blue-line"></div>
+  		<form>
+  			<input type="text" placeholder="email">
+  			<input type="submit" value="SUBCRIBE NOW">
+  		</form>
+  	</section>
   </main>
-  <footer></footer>
+  <footer>
+  	<div id="social-links">
+  		<a href="#"><i class="fa fa-twitter-square"></i></a>
+  		<a href="#"><i class="fa fa-facebook-square"></i></a>
+  		<a href="#"><i class="fa fa-snapchat-square"></i></a>
+  		<a href="#"><i class="fa fa-pinterest-square"></i></a>
+  		<a href="https://github.com/impomales"><i class="fa fa-github-square"></i></a>
+  	</div>
+  	<p>
+  		MADE BY <a href="https://linkedin.com/in/impomales">ISAIAS POMALES</a>. IMAGES COURTESY TO <a href="https://unsplash.com">UNSPLASH</a>.
+  	</p>
+  </footer>
 </body>
 </html>
