@@ -80,15 +80,37 @@ header a, #home a {
 	align-items: center;
 }
 
+.section-container p, .section-container h2 {
+	text-align: center;
+}
+
 .images-container {
 	display: flex;
-	width: 80vw;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
 }
+
+.images-container img {
+	padding: 10px;
+}
+
+#features-container {
+	display: flex;
+	justify-content: center;
+}
+
+#features-container .section-container {
+	flex-basis: 25%;
+}
+
 
 .blue-line {
 	border-bottom: 3px solid;
 	border-bottom-color: #2959a5;
 	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .layer {
